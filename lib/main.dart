@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundColor: Colors.red,
-                radius: 70,
+                radius: 50,
                 backgroundImage: AssetImage("images/me.JPG"),
               ),
               Text(
@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(
                         fontFamily: 'Source Sans Pro',
                         color: Colors.white,
-                        fontSize: 20,
+                        fontSize: 15,
                       ),
                     ),
                   )),
@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Source Sans Pro',
                       color: Colors.white,
-                      fontSize: 20,
+                      fontSize: 15,
                     ),
                   ),
                 ),
@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
                       'https://www.linkedin.com/in/olexandr-kostiuk-b9bb05b6/',
                   version: QrVersions.auto,
                   backgroundColor: Colors.white,
-                  size: 170,
+                  size: 100,
                   foregroundColor: Colors.black,
                 ),
               ),
@@ -98,7 +98,7 @@ class MyApp extends StatelessWidget {
                   Expanded(
                     flex: 100,
                     child: Container(
-                      height: 70,
+                      height: 50,
                       decoration: BoxDecoration(
                         shape: BoxShape.rectangle,
                         color: const Color(0xff7c94b6),
